@@ -65,9 +65,37 @@ header nav a:hover{
 }
 
 .filme-principal .descricao{
-    margin-bottom: 50px;
+    margin-top: 2%;
+    margin-bottom: 10%;
+
 }
 
-.titulo-principal {
+.titulo-principal{
     font-size: 40px;
+    margin-top: 20%;
+}
+
+button{
+    
+    background-color: rgba(0, 0, 0,.50);
+    border: none;
+    color: white;
+
+    padding: 14px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    cursor: pointer;
+    
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    transition: .3s ease all;
+}
+
+button i{
+    margin-right: 8px;
 }

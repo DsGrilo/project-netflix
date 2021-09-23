@@ -1,0 +1,73 @@
+    /*  IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills&display=swap');
+ 
+    /* VARIAVEIS */
+:root{
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+
+        /* RESET CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+        /* HEADERS */
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+        /*  FILME PRINCIPAL  */ 
+
+.filme-principal{
+    font-size: 16px;
+    background: url(/resources/img/capa-lucifer.jpg),linear-gradient(rgba(0, 0, 0,.50), rgba(0, 0, 0,.50)100%);
+
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.filme-principal .descricao{
+    margin-bottom: 50px;
+}
+
+.titulo-principal {
+    font-size: 40px;
+}

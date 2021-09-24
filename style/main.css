@@ -1,5 +1,6 @@
     /*  IMPORTS */
 @import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
  
     /* VARIAVEIS */
 :root{
@@ -33,7 +34,7 @@ header .container{
 }
 
 header .logo{
-    margin-left: 5px;
+    margin-left: 30px;
     color: var(--vermelho);
     font-family: 'Stick No Bills', sans-serif;
     font-size: 40px;
@@ -41,6 +42,7 @@ header .logo{
 
 header nav{
     font-size: 25px;
+    margin-right: 10px;
 }
 
 header nav a{
@@ -53,13 +55,17 @@ header nav a:hover{
     color: #fff;
 }
 
-        /*  FILME PRINCIPAL  */ 
+main{
+    background: url(/resources/img/capa-lucifer.jpg),linear-gradient(rgba(0, 0, 0,.50), rgba(0, 0, 0,.50)100%);
+    background-size: cover;
+    margin-left: 5px;
+}
 
+        /*  FILME PRINCIPAL  */ 
 
 .filme-principal{
     font-size: 16px;
-    background: url(/resources/img/capa-lucifer.jpg),linear-gradient(rgba(0, 0, 0,.50), rgba(0, 0, 0,.50)100%);
-    background-size: cover;
+
 
     height: 100vh;
 
@@ -85,6 +91,7 @@ header nav a:hover{
     font-size: 50px;
     margin-top: 10%;
 }
+
 
 button{
     
@@ -116,13 +123,23 @@ button i{
 
 /* CARROUSEL */ 
 
-.box-filme{
-
-    height: 100%;
-    width: 100%;
-    display: block;
-}
-
 .carrosel-films{
     margin-top: 5px;
 }
+
+.carrosel-films h3{
+    font-weight: 700;
+    margin-left: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5vw;
+}
+
+.box-filme{
+    
+    margin-left: 30px;
+    height: 50%;
+    width: 50%;
+    display: block;
+    border-radius: 10px;
+}
+

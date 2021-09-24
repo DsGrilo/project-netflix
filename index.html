@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/main.css">
-    <script src="https://kit.fontawesome.com/cc6698def5.js" crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="style/reponsive.css">
+    <!-- OWL CSS-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    
     <title>NETFLIX CLONE</title>
 </head>
 <body>
@@ -16,10 +19,10 @@
             <h2 class="logo">NETFLIX</h2>
             <!---BARRA DE LINKS NAVBAR-->
             <nav>
-                <a href="#">INICIO</a>
-                <a href="#">SERIES</a>
-                <a href="#">FILMES</a>
-                <a href="#">DOCUMENTARIOS</a>
+                <a href="#">Inicio</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentarios</a>
             </nav>
         </div>
     </header>
@@ -33,21 +36,48 @@
                     abre um piano-bar e empresta sua sabedoria a
                     uma investigadora de assassinatos.
                 </p>
+                <div class="buttons"> 
+                <button role="button" class="button" id="button-play-now">
+                    <i class="fas fa-play"></i>
+                    ASSISTIR AGORA
+                </button>
+                <button role="button" class="button" id="button-more-information">
+                    <i class="fas fa-info-circle"></i>
+                    MAIS INFORMAÇÕES
+                </button>
             </div>
-            <div class="buttons"> 
-            <button role="button" class="button" id="button-play-now">
-                <i class="fas fa-play"></i>
-                ASSISTIR AGORA
-            </button>
-            <button role="button" class="button" id="button-more-information">
-                <i class="fas fa-info-circle"></i>
-                MAIS INFORMAÇÕES
-            </button>
-        </div>
-        
+         </div>
         </div>
     </main>
+    <div class="carrosel-films">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="resources/img/mini (1).jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="resources/img/mini (2).jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="resources/img/mini (3).jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="resources/img/mini (4).jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="resources/img/mini (5).jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="resources/img/mini (6).jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="resources/img/mini (7).jpg" alt="">
+            </div>
+        </div>
+    </div>
 </body>
 
-
+<script src="https://kit.fontawesome.com/cc6698def5.js" crossorigin="anonymous"></script>
+<script src="js/owl/jquery.min.js"></script>
+<script src="js/owl/owl.carousel.min.js"></script>
+<script src="js/owl/setup.js"></script>
 </html>
